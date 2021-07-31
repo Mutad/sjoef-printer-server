@@ -1,0 +1,21 @@
+{
+  "name": "sendcloud-printer-server",
+  "version": "1.0.0",
+  "description": "Printer server",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mutado",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "pdf-to-printer": "^2.0.5"
+  }
+}
